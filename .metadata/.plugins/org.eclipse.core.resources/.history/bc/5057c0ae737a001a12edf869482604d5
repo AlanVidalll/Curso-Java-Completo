@@ -1,0 +1,11 @@
+.conteudo{
+	
+	-fx-background-color: black;
+	-fx-font-family: Oswald;
+}
+
+.numero{
+	
+	-fx-text-fill: #eaeaea;
+	
+}

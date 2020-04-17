@@ -1,0 +1,28 @@
+package layout;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
+public class AppLayout extends Application {
+	
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		
+		VBox tem = new VBox();
+		tem.getChildren().add(new Caixa().comTexto("1"));
+		tem.getChildren().add(new Caixa().comTexto("2"));
+		tem.getChildren().add(new Caixa().comTexto("3"));
+		tem.getChildren().add(new Caixa().comTexto("4"));
+		Scene principal = new Scene(tem,800,600);
+		primaryStage.setScene(principal);
+		primaryStage.setTitle("Gerenciadores de Layout");
+		primaryStage.show();
+	}
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
+
+}

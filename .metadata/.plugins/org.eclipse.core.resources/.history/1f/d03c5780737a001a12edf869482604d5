@@ -1,0 +1,6 @@
+.conteudo{
+	
+	-fx-background-color: black;
+	-fx-font-family: Oswald;
+	-fx-text-fill: #eaeaea
+}

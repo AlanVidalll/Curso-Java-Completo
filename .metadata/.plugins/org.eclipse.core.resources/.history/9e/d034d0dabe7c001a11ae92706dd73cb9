@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="fxmll.LoginControlador"
+styleClass="login" hgap="15" vgap="15">
+
+<Label text="Seja Bem Vindo"
+styleClass="login-titulo"
+		GridPane.columnIndex="0" GridPane.rowIndex="0"
+		 GridPane.columnSpan="2" GridPane.halignment= "CENTER">
+		 </Label>
+		
+	<Label text="E-mail:"
+	styleClass="login-form-label"
+		GridPane.columnIndex="0" GridPane.rowIndex="1"></Label>
+		<TextField fx:id="campoEmail"
+		GridPane.columnIndex="1" GridPane.rowIndex="1"></TextField>
+		
+	<Label text="Senha:"
+	styleClass="login-form-label"
+		GridPane.columnIndex="0" GridPane.rowIndex="2"></Label>
+	<PasswordField fx:id="campoSenha"
+		GridPane.columnIndex="1" GridPane.rowIndex="2"></PasswordField>
+	
+	<Button text="Entrar"
+	styleClass="login-form-botao"
+	GridPane.columnIndex="0" GridPane.rowIndex="3"
+	onAction="#entrar">
+	</Button>
+</GridPane>
+

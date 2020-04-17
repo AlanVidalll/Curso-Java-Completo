@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=exercicios-jpa/libs\/mysql-connector-java-8.0.19.jar&lt;com.mysql.cj.jdbc(Driver.class[Driver" modifiers="33" timestamp="1585917540988"/>
+    <typeInfo handle="=exercicios-jpa/libs\/hibernate-core-5.4.13.Final.jar&lt;org.hibernate.dialect(MySQL57Dialect.class[MySQL57Dialect" modifiers="33" timestamp="1585917566738"/>
+</typeInfoHistroy>

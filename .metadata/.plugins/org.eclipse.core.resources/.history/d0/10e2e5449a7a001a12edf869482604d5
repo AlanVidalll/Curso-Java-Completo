@@ -1,0 +1,7 @@
+package layout;
+
+import javafx.scene.shape.Rectangle;
+
+public class Quadrado extends Rectangle  {
+
+}

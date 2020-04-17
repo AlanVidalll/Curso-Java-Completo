@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;numeroAtual1&apos; in &apos;calculadora.alan.calc.modelo.Memoria.obterResultado2()&apos; to &apos;numeroAtual&apos;&#x0D;&#x0A;- Original project: &apos;calculadora&apos;&#x0D;&#x0A;- Original element: &apos;calculadora.alan.calc.modelo.Memoria.obterResultado2().numeroAtual1&apos;&#x0D;&#x0A;- Renamed element: &apos;numeroAtual1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;numeroAtual1&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;calculadora.alan.calc.modelo{Memoria.java[Memoria~obterResultado2@numeroAtual1!2136!2206!2143!2154!D!0!false" name="numeroAtual" references="true" stamp="1585780714541" version="1.0"/>
+</session>

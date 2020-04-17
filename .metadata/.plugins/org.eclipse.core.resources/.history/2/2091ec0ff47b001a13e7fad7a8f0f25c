@@ -1,0 +1,18 @@
+package layout;
+
+import javafx.scene.layout.AnchorPane;
+
+public class TesteAnchorPane extends AnchorPane {
+	
+	public TesteAnchorPane() {
+		
+		Quadrado q1 = new Quadrado();
+		Quadrado q2 = new Quadrado();
+		Quadrado q3 = new Quadrado();
+		Quadrado q4 = new Quadrado();
+		
+		getChildren().addAll(q1,q2,q3,q4);
+	}
+	
+  
+}

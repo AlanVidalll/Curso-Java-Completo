@@ -1,0 +1,5 @@
+package com.spring.exerciciossb.models;
+
+public class Cliente {
+
+}

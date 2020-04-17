@@ -1,0 +1,6 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/springboot
+spring.datasource.username=root
+spring.datasource.passoword=chuteres10
+
+spring.jpa.hibernate.dll-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5innoDBDialect

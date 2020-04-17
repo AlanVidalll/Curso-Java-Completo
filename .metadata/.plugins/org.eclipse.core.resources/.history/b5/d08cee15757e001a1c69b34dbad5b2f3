@@ -1,0 +1,22 @@
+package com.spring.exerciciossb.controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping("/calculadora")
+public class CalculadoraController {
+	
+	// /calculadora/somar/10/20
+	// /calculadora/subtrair?a=100&b=39
+	
+	@GetMapping(name = "{/somar/a/b}")
+	public int somar1(@PathVariable int a ,int b) {
+		
+		return a + b;
+		
+		
+		
+	}
+
+}

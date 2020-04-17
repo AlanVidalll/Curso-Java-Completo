@@ -1,0 +1,5 @@
+package com.spring.exerciciossb.model.repositories;
+
+public interface ProdutoRepository {
+
+}
